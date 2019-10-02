@@ -1,7 +1,7 @@
 # Pet Service
 ## Endpoints
-- POST /pet
-    Takes a JSON body that specifies a list of pets to be created:
+- POST /pet  
+Takes a JSON body that specifies a list of pets to be created:
 
     ```
     [{
@@ -33,7 +33,7 @@
     }]
     ```
     Returns: a list of ids created.
-- PUT /pet
+- PUT /pet  
     Takes a JSON body that specifies a list of pets, their ids, and properties to be updated:
     ```
     [{
@@ -41,12 +41,12 @@
     	"name": "Rover Jr."
     }]
     ```
-- DELETE /pet
+- DELETE /pet  
     Takes a JSON body that specifies a list of ids of pets to delete:
     ```
     [ 1, 2 ]
     ```
-- GET /pet
+- GET /pet  
     Takes a JSON body that specifies keys and values to use as filters in querying pets in the database:
     ```
     {
