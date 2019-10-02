@@ -1,4 +1,4 @@
-# Pets API
+# Pet Service
 ## Endpoints
 - POST /pet
     Takes a JSON body that specifies a list of pets to be created:
